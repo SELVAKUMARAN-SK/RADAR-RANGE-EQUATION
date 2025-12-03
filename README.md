@@ -24,10 +24,10 @@ Run the program to obtain and display the maximum radar range.
 ## Code:
 
 ```
-Pt = 1000;
-G = 1000;
+Pt = 500;
+G = 800;
 sigma = 1;
-Ae = 10;
+Ae = 5;
 
 Smin = logspace(-12, -6, 100);
 Rmax = ((Pt * G * sigma * Ae) ./ (16 * %pi^2 .* Smin)).^(1/4);
@@ -43,6 +43,7 @@ Gt = linspace(100, 2000, 100);
 Rmax3 = ((Pt * Gt * sigma * Ae) ./ (16 * %pi^2 * 1e-10)).^(1/4);
 subplot(3,1,3);
 plot(Gt, Rmax3);
+
 ```
 ## Output waveform:
 
@@ -50,7 +51,7 @@ plot(Gt, Rmax3);
 
 ## Manual Calculations: 
 
-![WhatsApp Image 2025-11-22 at 20 17 10_174ce547](https://github.com/user-attachments/assets/4a54c39b-3271-4edc-aab7-d44fe0d1534c)
+
 
 ## Result:
 Thus, the maximum range of a radar system using the Radar Range Equation is calculated and verified through Scilab programming.
