@@ -50,6 +50,7 @@ plot(Gt, Rmax3);
 ![WhatsApp Image 2025-11-20 at 20 19 15_8de936e3](https://github.com/user-attachments/assets/0be88c41-7c15-4a37-ac65-a705c0d25e79)
 
 ## Manual Calculations: 
+![WhatsApp Image 2025-12-04 at 12 15 36 PM](https://github.com/user-attachments/assets/078a4b34-d39b-416f-92b6-bab883453c11)
 
 
 
